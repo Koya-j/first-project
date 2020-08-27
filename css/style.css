@@ -12,7 +12,7 @@ body {
 .background::after {
     content: "";
     background-image: url("../images/piano.jpg");
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     opacity: 0.5;
     top: 0;
     left: 0;
@@ -26,7 +26,12 @@ h1 {
     /*background-color: powderblue;*/
     font-size: 30px;
 }
+h2 {
+    font-size: 20px;
+    color:rgb(0, 100, 0);
+}
 
 p {
     font-size: 15px;
+    color:rgb(0, 100, 0);
 }
